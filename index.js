@@ -18,7 +18,7 @@ app.use(express.json());
 // U CAN ONLY EDIT THIS SECTION!!
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'maarabmoj.aternos.me',
+    host: 'Lagjaa_gale.aternos.me',
     version: false, // U can replace with 1.16.5 for example, remember to use ', = '1.16.5'
     username: 'STAFF_1',
     port: 13981,
@@ -103,8 +103,23 @@ function createBot() {
       }
 
     }
-    if (message === 'stop') {
-      bot.chat('I will stop!')
+    if (message === 'ishan.') {
+      bot.chat('oye ishan teri maa ki chut maru bhen ke lode teri maa he chod dunga ')
+      stopGuarding()
+    }
+    if (message === 'aakash.') {
+      bot.chat('akash bhen ke lode randi Sale gand me Dam hai tere CHutiye Sale MC ')
+      stopGuarding()
+    }
+    if (message === '@aakash') {
+      bot.chat('4 chavani Ghode pe Aakash mere lode peeee ')
+      bot.chat('Kyu Aakash ji Bheto ge naa')
+      stopGuarding()
+    }
+
+    if (message === 'vansh.') {
+      bot.chat('oye vansh sale jhaat ke baabl randi Sale Notxvansh vo XXX kr du tere sath Bta ')
+      bot.chat('bol Randi bol ')
       stopGuarding()
     }
   })
