@@ -18,9 +18,9 @@ app.use(express.json());
 // U CAN ONLY EDIT THIS SECTION!!
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'Lagjaa_gale.aternos.me',
+    host: 'AdrsihyaSMP.aternos.me',
     version: false, // U can replace with 1.16.5 for example, remember to use ', = '1.16.5'
-    username: 'STAFF_1',
+    username: 'AFK',
     port: 13981,
     plugins: [AutoAuth],
     AutoAuth: 'ilovemyself'
